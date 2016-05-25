@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bevacqua/dragula.git"
+    "url": "https://github.com/onehippo/dragula.git"
   },
   "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bevacqua/dragula/issues"
+    "url": "https://issues.onehippo.com/projects/CHANNELMGR"
   },
-  "homepage": "https://github.com/bevacqua/dragula",
+  "homepage": "https://github.com/onehippo/dragula",
   "dependencies": {
     "contra": "1.9.4",
     "crossvent": "1.5.4"
