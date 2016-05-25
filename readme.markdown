@@ -1,3 +1,12 @@
+# Dragula for Hippo CMS
+
+This repository contains Hippo-specific modifications of the [Dragula library](https://github.com/bevacqua/dragula):
+
+- includes 'direction as function' ([pull request #336](https://github.com/bevacqua/dragula/pull/336)) so the drag 
+  direction of containers can be specified per container.
+
+# The remainder of this file contains the unmodified Dragula README
+
 [![logo.png][3]][2]
 
 [![Travis CI][5]][4] [![Slack Status][17]][18] [![Support](https://supporter.60devs.com/api/b/f4co3kmopd9mngbzjgn6ymbug)](https://supporter.60devs.com/give/f4co3kmopd9mngbzjgn6ymbug) [![Patreon][19]][20]
