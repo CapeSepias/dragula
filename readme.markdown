@@ -108,6 +108,7 @@ dragula(containers, {
   removeOnSpill: false,              // spilling will `.remove` the element, if this is true
   mirrorContainer: document.body,    // set the element that gets mirror elements appended
   ignoreInputTextSelection: true     // allows users to select input text, see details below
+  dragDefinition: true               // The amount of pixels needed in order for a click to be considered a drag
 });
 ```
 

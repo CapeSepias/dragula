@@ -39,6 +39,7 @@ function dragula (initialContainers, options) {
   if (o.direction === void 0) { o.direction = 'vertical'; }
   if (o.ignoreInputTextSelection === void 0) { o.ignoreInputTextSelection = true; }
   if (o.mirrorContainer === void 0) { o.mirrorContainer = doc.body; }
+  if (o.dragDefinition === void 0) { o.dragDefinition = 5; }
 
   var drake = emitter({
     containers: o.containers,
@@ -125,6 +126,9 @@ function dragula (initialContainers, options) {
     }
     // truthy check fixes #239, equality fixes #207
     if (e.clientX !== void 0 && e.clientX === _moveX && e.clientY !== void 0 && e.clientY === _moveY) {
+      return;
+    }
+    if ((_moveX - e.clientX) < o.dragDefinition && (_moveY - e.clientY) < o.dragDefinition) {
       return;
     }
     if (o.ignoreInputTextSelection) {
