@@ -1,5 +1,5 @@
 {
-  "name": "@bloomreach/dragula",
+  "name": "hippo-dragula",
   "version": "3.7.2-br",
   "description": "Drag and drop so simple it hurts",
   "main": "dragula.js",
@@ -31,6 +31,9 @@
   "dependencies": {
     "contra": "1.9.4",
     "crossvent": "1.5.4"
+  },
+  "publishConfig": {
+    "registry": "https://maven.onehippo.com/npm-public/"
   },
   "devDependencies": {
     "bower": "1.5.2",
